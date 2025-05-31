@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  base: '/MySNUproject/',  // <--- your GitHub repo name with trailing slash
+  base: '/',  // <--- your GitHub repo name with trailing slash
   plugins: [react()],
   resolve: {
     alias: {
